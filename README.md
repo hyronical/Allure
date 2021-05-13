@@ -10,6 +10,7 @@ It also utilizes packets to display the enchantments. Packets are intercepted an
 
 # Creating Enchants
 The following is an example which will play an explosion sound on block break.
+Annotations are used to store the the enchantment data and options.
 ```java
 @AEnchant(name = "boom", displayName = "Boom", maxLevel = 5, rarity = Enchantment.Rarity.RARE, isTreaure = true, target = EnchantmentTarget.TOOL)
 public class BlossomEnchant extends AllureEnchant {
