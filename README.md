@@ -1,6 +1,12 @@
 # Allure
 Allure is a custom enchants plugin built for 1.16.5.
-Instead of other methods of creating enchants, Allure registers them straight into NMS. This means native anvil and enchantment table support.
+Allure registers its enchants through NMS unlike other plugins that utilize NBT, PDC (Persistent Data Container) and/or lore which can be quite limiting on what can be done. With NMS registration comes native anvil, enchantment table and treaure support.
+
+It also utilizes packets to display the enchantments. Packets are intercepted and changed to the client depending on the enchantments.
+
+## Dependencies
+- ProtocolLib
+
 
 # Creating Enchants
 The following is an example which will play an explosion sound on block break.
