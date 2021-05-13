@@ -8,7 +8,7 @@ It also utilizes packets to display the enchantments. Packets are intercepted an
 - ProtocolLib
 
 
-# Creating Enchants
+## Creating Enchants
 The following is an example which will play an explosion sound on block break.
 Annotations are used to store the the enchantment data and options.
 ```java
