@@ -1,8 +1,8 @@
 # Allure
-Allure is a custom enchants plugin built for 1.16.5.
+Allure is a custom enchants plugin built for 1.17.1.
 Allure registers its enchants through NMS unlike other plugins that utilize the items lore, persistent data container or only extending the enchantment class. This requires having to muck around with altering lore, anvils and all the other good stuff. With NMS registration comes native anvil, enchantment table and treasure support.
 
-A caveat of registering custom enchants is that the client has no translation for the enchant. This means that the enchant cannot be natively shown on the enchants without a resource pack or mods. Instead, Allure uses lore.. Via packets! Thus the actual item on the server isn't affected. 
+A caveat of registering custom enchants is that the client has no translation for the enchant. This means that the enchant cannot be natively shown on the item without a resource pack or mods. Instead, Allure uses lore.. Via packets! Thus the actual item on the server isn't affected. 
 
 ## Caveats
 Creative mode is messy when it comes to using packets for displaying the lore as the client will edit the item server side. To fix this, those packets are intercepted and if the item has any enchantment lore on it then the lore will be removed. 
