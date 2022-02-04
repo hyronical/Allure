@@ -4,6 +4,8 @@ Allure registers its enchants through NMS unlike other plugins that directly uti
 
 A caveat of registering custom enchants is that the client has no translation for the enchant. This means that the enchant cannot be natively shown on the item without clientside mods. Instead, Allure uses lore.. via packets! Thus the actual item on the server isn't affected. 
 
+This allows for native anvil, enchantment table, treasure (natural spawning chests) and more!
+
 ## Caveats
 Enchants will not show in creative mode. This is due to creative allowing players to essentially create or modify an item based on what their client sees.
 
